@@ -106,7 +106,7 @@ b=0
 19.  Determinar qué identificador no es válido
       - [ ]   XMAS11
       - [ ]   xmas11
-      - [ ]   x-mas-11
+      - [ X]   x-mas-11
       - [ ]   x_mas_11
 20.  Determinar qué identificador es válido
        - [X]   _11masx
