@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 #define N 50  
 typedef char cadena50[N+1];
