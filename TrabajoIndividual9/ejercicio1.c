@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include <ctype.h>
 #include <math.h>
 
 
-
 #define PI 3.14159
+
 
 
 
@@ -17,9 +18,7 @@ char comprobaraccesible (double x, double y, double la, double lb);
 void calcularangulos (double x, double y, double la, double lb,
                       double *nuevoalfa, double *nuevobeta);
 
-
 int main(){
-   
     char c;
 
 
@@ -29,10 +28,10 @@ int main(){
 
 
 
+
     do{ system("cls");
         printf("programeitor\n");
         printf("====================================\n\n");
-        
 
 
 

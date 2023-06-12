@@ -28,7 +28,7 @@ int main(){
 
    
     do{ system("cls");
-        printf("ESCRIBIR AQUI EL TITULO DEL PROGRAMA\n");
+        printf("programeitor\n");
         printf("====================================\n\n");
       
 

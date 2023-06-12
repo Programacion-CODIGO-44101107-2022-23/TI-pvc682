@@ -215,3 +215,4 @@ double calcularcoeficiente (tipoarray x, tipoarray y, int numpuntos)
     }
     return (numpuntos * sumxy - sumx * sumy) /
             sqrt((numpuntos * sumx2 - sumx * sumx) * (numpuntos * sumy2 - sumy * sumy));
+}
