@@ -5,54 +5,49 @@
 
 
 
-void escribirbinario (int n);
+int sumarcifras (int n);
 
 
 int main()
 {
- 
     char c;
 
-    int n;
 
+    int n, suma;
 
-
-   
     do
     {
         system("cls");
-        printf("ESCRIBIR AQUI EL TITULO DEL PROGRAMA\n");
+        printf("programeitor\n");
         printf("====================================\n\n");
-       
 
 
+        //como pide un numero natural tiene que ser mayor o igual a 0
         do
         {
             printf ("\nIntroduce numero natural: ");
             scanf (" %d", &n);
         } while (n < 0);
-        printf ("\nEl número en binario es: ");
-        escribirbinario (n);
+        suma = sumarcifras (n);  //int sumarcifras (int n)
+        printf ("\nLa suma de las cifras es: %d", suma);
+        
 
 
 
 
 
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
+        c=toupper(getchar());
     }
     while (c!='N');
     return 0;
 }
 
 
-
-void escribirbinario (int n)
+int sumarcifras (int n)
 {
-    if (n == 0 || n == 1)     //if (n < 2) 
-        printf ("%d", n);
-    else 
-    {
-        escribirbinario (n / 2);
-        printf ("%d", n%2);
-    }
+    if (n == 0)
+        return 0;
+    else
+        return n%10 + sumarcifras(n/10);
+}

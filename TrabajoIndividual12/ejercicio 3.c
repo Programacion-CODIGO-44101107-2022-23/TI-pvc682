@@ -25,7 +25,7 @@ void leer_cadena(cadena50 cad)
     fin=0;
     while((i<N)&&(!fin))
     {
-        c=getch();
+        c=getchar();
         switch(c){
         case '\r': fin=1;
                    printf("\n");

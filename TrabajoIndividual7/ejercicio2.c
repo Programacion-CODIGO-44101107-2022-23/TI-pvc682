@@ -112,6 +112,7 @@ int main(){
 
 
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
+        c=toupper(getchar());
     }while (c!='N');
     return 0;
+}

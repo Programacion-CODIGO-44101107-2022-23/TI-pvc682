@@ -4,7 +4,6 @@
 
 #define N 50  
 
-/* Nu
 typedef char cadena50[N+1];
 
 void dejaralfabeticos (cadena50 cad, int *longitud);

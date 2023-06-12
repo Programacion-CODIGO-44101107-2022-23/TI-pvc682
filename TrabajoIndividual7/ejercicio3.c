@@ -22,7 +22,7 @@ int main()
     do
     {
         system("cls");
-        printf("ESCRIBIR AQUI EL TITULO DEL PROGRAMA\n");
+        printf("programeitor\n");
         printf("====================================\n\n");
        
 
@@ -36,7 +36,7 @@ int main()
 
 
         printf("\n\nDesea efectuar una nueva operacion (s/n)? ");
-        c=toupper(getch());
+        c=toupper(getchar());
     }
     while (c!='N');
     return 0;
@@ -68,3 +68,5 @@ int multiplicar (int a, int b)
             return b + multiplicar (a/2, b*2);
         else 
             return multiplicar (a/2, b*2);
+}
+}
