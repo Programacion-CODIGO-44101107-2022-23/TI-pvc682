@@ -13,20 +13,17 @@ double f3 (double x);
 
 int main()
 {
-    /* Declaracion de variables */
     char c;
     int opcion;
     double a, b, base, areatotal;
 
 
 
-    /* Bloque de instrucciones */
     do
     {
         system("cls");
-        printf("ESCRIBIR AQUI EL TITULO DEL PROGRAMA\n");
+        printf("programeitor\n");
         printf("====================================\n\n");
-        /* Instrucciones del algoritmo */
 
 
         printf ("\nFunciones a utilizar: ");

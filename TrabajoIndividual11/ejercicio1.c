@@ -35,7 +35,6 @@ int main(){
     do{ system("cls");
         printf("programeitor\n");
         printf("====================================\n\n");
-        /* Instrucciones del algoritmo */
 
 
 
